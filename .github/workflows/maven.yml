@@ -1,0 +1,42 @@
+name: Apache ZooKeeper CI - ISW2
+
+on:
+  push:
+    branches: ["isw2-testing"]
+  pull_request:
+    branches: ["master"]
+
+jobs:
+  selected-modules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v4
+
+      - name: Setup Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "21"
+          cache: maven
+
+      - name: Build dei moduli selezionati senza esecuzione dei test
+        run: >
+          mvn -B -Pfull-build
+          -pl zookeeper-jute,zookeeper-contrib/zookeeper-contrib-zooinspector
+          -am
+          -DskipTests
+          clean install
+
+      - name: Test nativi del modulo Jute
+        run: >
+          mvn -B
+          -f zookeeper-jute/pom.xml
+          test
+
+      - name: Test nativi del modulo ZooInspector
+        run: >
+          mvn -B
+          -f zookeeper-contrib/zookeeper-contrib-zooinspector/pom.xml
+          test
