@@ -41,6 +41,17 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.vintage</groupId>
+      <artifactId>junit-vintage-engine</artifactId>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -143,6 +154,27 @@
         </executions>
       </plugin>
       <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.11</version>
+        <executions>
+          <execution>
+            <id>prepare-jacoco-agent</id>
+            <goals>
+              <goal>prepare-agent</goal>
+            </goals>
+          </execution>
+
+          <execution>
+            <id>generate-jacoco-report</id>
+            <phase>test</phase>
+            <goals>
+              <goal>report</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
         <!-- spotbugs does not make sense for generated code -->
         <groupId>com.github.spotbugs</groupId>
         <artifactId>spotbugs-maven-plugin</artifactId>
@@ -180,6 +212,22 @@
             <Merge-Headers>!Implementation-Build,*</Merge-Headers>
           </instructions>
           <classifier>osgi</classifier>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.pitest</groupId>
+        <artifactId>pitest-maven</artifactId>
+        <version>1.25.8</version>
+
+        <configuration>
+          <targetClasses>
+            <param>org.apache.jute.compiler.JVector*</param>
+          </targetClasses>
+
+          <targetTests>
+            <param>org.apache.jute.compiler.JVectorBlackBoxTest</param>
+            <param>org.apache.jute.compiler.JVectorManualImprovedTest</param>
+          </targetTests>
         </configuration>
       </plugin>
     </plugins>
