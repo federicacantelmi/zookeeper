@@ -33,6 +33,7 @@ jobs:
         run: >
           mvn -B
           -f zookeeper-jute/pom.xml
+          -Pci
           test
 
       - name: Test nativi del modulo ZooInspector

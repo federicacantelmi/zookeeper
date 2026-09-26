@@ -28,6 +28,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 public class JVectorBlackBoxTest {
 
@@ -125,6 +126,7 @@ public class JVectorBlackBoxTest {
     * Classi di equivalenza: wrapper Java, JInt, true.
     * Oracolo: codice generato, dichiarazione presente, vettore di interi inizializzato correttamente, assenza dichiarazioni C#.
     */
+    @Category(AssertWithBug.class)
     @Test
     public void generateJavaReadOfIntWithDecl_TC07() {
         JVector vector = new JVector(new JInt());
@@ -150,6 +152,7 @@ public class JVectorBlackBoxTest {
     * Classi di equivalenza: wrapper C#, JInt, true.
     * Oracolo: codice generato, dichiarazione presente, vettore di interi inizializzato correttamente, assenza dichiarazioni Java.
     */
+    @Category(AssertWithBug.class)
     @Test
     public void generateCsharpReadOfIntWithDecl_TC08() {
         JVector vector = new JVector(new JInt());
@@ -247,6 +250,7 @@ public class JVectorBlackBoxTest {
     * Classi di equivalenza: wrapper Java, JInt, false.
     * Oracolo: codice generato, dichiarazione assente, vettore di interi inizializzato correttamente, assenza dichiarazioni C#.
     */
+    @Category(AssertWithBug.class)
     @Test
     public void generateJavaReadOfIntWithoutDecl_TC13() {
         JVector vector = new JVector(new JInt());
@@ -272,6 +276,7 @@ public class JVectorBlackBoxTest {
     * Classi di equivalenza: wrapper C#, JInt, false.
     * Oracolo: codice generato, dichiarazione assente, vettore di interi inizializzato correttamente, assenza dichiarazioni Java.
     */
+    @Category(AssertWithBug.class)
     @Test
     public void generateCsharpReadOfIntWithoutDecl_TC14() {
         JVector vector = new JVector(new JInt());
@@ -381,6 +386,7 @@ public class JVectorBlackBoxTest {
     * Classi di equivalenza: metodo Java, JInt.
     * Oracolo: codice generato, vettore di interi inizializzato correttamente, assenza dichiarazioni C#.
     */
+    @Category(AssertWithBug.class)
     @Test
     public void generateJavaReadMethodOfInt_TC19() {
         JVector vector = new JVector(new JInt());
@@ -552,6 +558,7 @@ public class JVectorBlackBoxTest {
     * Classi di equivalenza: wrapper Java, JVector(JString).
     * Oracolo: codice generato, inizializzazione del vettore non presente, assenza dichiarazioni C#.
     */
+    @Category(AssertWithBug.class)
     @Test
     public void generateJavaWriteOfVector_TC29() {
         JVector innerVector = new JVector(new JString());
@@ -567,8 +574,9 @@ public class JVectorBlackBoxTest {
     * Unita': generazione della scrittura di un vettore.
     * Categorie: punto di ingresso, elemento scelto.
     * Classi di equivalenza: wrapper C#, JVector(JString).
-    * Oracolo: codice generato, inizializzazione del vettore non presente, assenza dichiarazioni C#.
+    * Oracolo: codice generato, inizializzazione del vettore non presente, assenza dichiarazioni Java.
     */
+    @Category(AssertWithBug.class)
     @Test
     public void generateCsharpWriteOfVector_TC30() {
         JVector innerVector = new JVector(new JString());
@@ -618,6 +626,7 @@ public class JVectorBlackBoxTest {
     * Classi di equivalenza: metodo Java, JVector(JString).
     * Oracolo: codice generato, inizializzazione del vettore non presente, assenza dichiarazioni C#.
     */
+    @Category(AssertWithBug.class)
     @Test
     public void generateJavaWriteMethodOfVector_TC33() {
         JVector innerVector = new JVector(new JString());
@@ -667,6 +676,7 @@ public class JVectorBlackBoxTest {
     * Classi di equivalenza: metodo C#, JVector(JString).
     * Oracolo: codice generato, inizializzazione del vettore non presente, assenza dichiarazioni Java.
     */
+    @Category(AssertWithBug.class)
     @Test
     public void generateCsharpWriteMethodOfVector_TC36() {
         JVector innerVector = new JVector(new JString());
