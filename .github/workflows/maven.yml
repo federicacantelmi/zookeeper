@@ -21,6 +21,22 @@ jobs:
           java-version: "21"
           cache: maven
 
+      - name: Download e install di EvoSuite
+        run: |
+          mkdir -p tools/evosuite
+
+          wget -q \
+            https://github.com/EvoSuite/evosuite/releases/download/v1.2.0/evosuite-standalone-runtime-1.2.0.jar \
+            -O tools/evosuite/evosuite-standalone-runtime-1.2.0.jar
+
+          mvn -B install:install-file \
+            -Dfile=tools/evosuite/evosuite-standalone-runtime-1.2.0.jar \
+            -DgroupId=org.evosuite \
+            -DartifactId=evosuite-standalone-runtime \
+            -Dversion=1.2.0 \
+            -Dpackaging=jar \
+            -DgeneratePom=true
+
       - name: Build dei moduli selezionati senza esecuzione dei test
         run: >
           mvn -B -Pfull-build
