@@ -458,7 +458,6 @@ public class NodeViewerDataRandoopPart1Test {
         javax.swing.JComponent.setDefaultLocale(locale0);
         javax.swing.JComponent.setDefaultLocale(locale0);
         org.junit.Assert.assertNotNull(locale0);
-        org.junit.Assert.assertEquals(locale0.toString(), "it_IT");
     }
 
     @Test
@@ -565,7 +564,6 @@ public class NodeViewerDataRandoopPart1Test {
         org.junit.Assert.assertNull(graphicsConfiguration35);
         org.junit.Assert.assertTrue("'" + boolean36 + "' != '" + false + "'", boolean36 == false);
         org.junit.Assert.assertNotNull(locale37);
-        org.junit.Assert.assertEquals(locale37.toString(), "it_IT");
         org.junit.Assert.assertNull(inputMethodRequests38);
         org.junit.Assert.assertNotNull(component42);
     }

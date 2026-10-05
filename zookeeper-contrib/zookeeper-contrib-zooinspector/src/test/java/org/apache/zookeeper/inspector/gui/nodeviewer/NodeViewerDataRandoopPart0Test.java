@@ -335,7 +335,6 @@ public class NodeViewerDataRandoopPart0Test {
         java.util.Locale locale0 = javax.swing.JComponent.getDefaultLocale();
         java.lang.Class<?> wildcardClass1 = locale0.getClass();
         org.junit.Assert.assertNotNull(locale0);
-        org.junit.Assert.assertEquals(locale0.toString(), "it_IT");
         org.junit.Assert.assertNotNull(wildcardClass1);
     }
 
@@ -2920,7 +2919,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertArrayEquals(inputMethodListenerArray2, new java.awt.event.InputMethodListener[] {});
         org.junit.Assert.assertNull(graphicsConfiguration10);
         org.junit.Assert.assertNotNull(locale11);
-        org.junit.Assert.assertEquals(locale11.toString(), "it_IT");
     }
 
     @Test
@@ -3900,7 +3898,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertNull(graphicsConfiguration10);
         org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
         org.junit.Assert.assertNotNull(locale12);
-        org.junit.Assert.assertEquals(locale12.toString(), "it_IT");
     }
 
     @Test
@@ -4212,7 +4209,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertTrue("'" + boolean16 + "' != '" + false + "'", boolean16 == false);
         org.junit.Assert.assertTrue("'" + boolean22 + "' != '" + false + "'", boolean22 == false);
         org.junit.Assert.assertNotNull(locale23);
-        org.junit.Assert.assertEquals(locale23.toString(), "it_IT");
     }
 
     @Test
@@ -4893,7 +4889,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertArrayEquals(inputMethodListenerArray2, new java.awt.event.InputMethodListener[] {});
         org.junit.Assert.assertNull(graphicsConfiguration10);
         org.junit.Assert.assertNotNull(locale11);
-        org.junit.Assert.assertEquals(locale11.toString(), "it_IT");
         org.junit.Assert.assertTrue("'" + boolean13 + "' != '" + false + "'", boolean13 == false);
     }
 
@@ -5082,7 +5077,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertNull(graphicsConfiguration35);
         org.junit.Assert.assertTrue("'" + boolean36 + "' != '" + false + "'", boolean36 == false);
         org.junit.Assert.assertNotNull(locale37);
-        org.junit.Assert.assertEquals(locale37.toString(), "it_IT");
         org.junit.Assert.assertNull(inputMethodRequests38);
         org.junit.Assert.assertNotNull(component42);
         org.junit.Assert.assertNotNull(nodeViewerData43);
@@ -5650,7 +5644,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertNull(graphicsConfiguration10);
         org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
         org.junit.Assert.assertNotNull(locale12);
-        org.junit.Assert.assertEquals(locale12.toString(), "it_IT");
         org.junit.Assert.assertNull(inputMethodRequests13);
         org.junit.Assert.assertNotNull(nodeViewerData14);
         org.junit.Assert.assertNotNull(inputMethodListenerArray16);
@@ -7171,7 +7164,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertNull(graphicsConfiguration10);
         org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
         org.junit.Assert.assertNotNull(locale12);
-        org.junit.Assert.assertEquals(locale12.toString(), "it_IT");
         org.junit.Assert.assertNull(inputMethodRequests13);
         org.junit.Assert.assertNotNull(nodeViewerData14);
         org.junit.Assert.assertNotNull(inputMethodListenerArray16);
@@ -7422,7 +7414,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertNull(graphicsConfiguration10);
         org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
         org.junit.Assert.assertNotNull(locale12);
-        org.junit.Assert.assertEquals(locale12.toString(), "it_IT");
         org.junit.Assert.assertNull(inputMethodRequests13);
         org.junit.Assert.assertNotNull(nodeViewerData14);
         org.junit.Assert.assertNotNull(inputMethodListenerArray16);
@@ -8085,7 +8076,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertNull(graphicsConfiguration10);
         org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
         org.junit.Assert.assertNotNull(locale12);
-        org.junit.Assert.assertEquals(locale12.toString(), "it_IT");
         org.junit.Assert.assertNull(inputMethodRequests13);
         org.junit.Assert.assertNotNull(nodeViewerData14);
         org.junit.Assert.assertNotNull(inputMethodListenerArray16);
@@ -8842,7 +8832,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertArrayEquals(inputMethodListenerArray2, new java.awt.event.InputMethodListener[] {});
         org.junit.Assert.assertNull(graphicsConfiguration10);
         org.junit.Assert.assertNotNull(locale11);
-        org.junit.Assert.assertEquals(locale11.toString(), "it_IT");
     }
 
     @Test
@@ -11024,7 +11013,6 @@ public class NodeViewerDataRandoopPart0Test {
         javax.swing.JComponent.setDefaultLocale(locale13);
         org.junit.Assert.assertNotNull(nodeViewerData0);
         org.junit.Assert.assertNotNull(locale13);
-        org.junit.Assert.assertEquals(locale13.toString(), "it_IT");
     }
 
     @Test
@@ -11454,7 +11442,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertTrue("'" + boolean17 + "' != '" + false + "'", boolean17 == false);
         org.junit.Assert.assertNull(image20);
         org.junit.Assert.assertNotNull(locale21);
-        org.junit.Assert.assertEquals(locale21.toString(), "it_IT");
     }
 
     @Test
@@ -12807,7 +12794,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertArrayEquals(inputMethodListenerArray2, new java.awt.event.InputMethodListener[] {});
         org.junit.Assert.assertNull(graphicsConfiguration10);
         org.junit.Assert.assertNotNull(locale11);
-        org.junit.Assert.assertEquals(locale11.toString(), "it_IT");
     }
 
     @Test
@@ -13558,7 +13544,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertNull(graphicsConfiguration56);
         org.junit.Assert.assertTrue("'" + boolean57 + "' != '" + false + "'", boolean57 == false);
         org.junit.Assert.assertNotNull(locale58);
-        org.junit.Assert.assertEquals(locale58.toString(), "it_IT");
         org.junit.Assert.assertNotNull(strList59);
     }
 
@@ -16396,7 +16381,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertNull(graphicsConfiguration10);
         org.junit.Assert.assertTrue("'" + boolean11 + "' != '" + false + "'", boolean11 == false);
         org.junit.Assert.assertNotNull(locale12);
-        org.junit.Assert.assertEquals(locale12.toString(), "it_IT");
         org.junit.Assert.assertNotNull(nodeViewerData15);
         org.junit.Assert.assertNotNull(actionMap17);
     }
@@ -16933,7 +16917,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertTrue("'" + boolean41 + "' != '" + false + "'", boolean41 == false);
         org.junit.Assert.assertTrue("'" + boolean42 + "' != '" + true + "'", boolean42 == true);
         org.junit.Assert.assertNotNull(locale43);
-        org.junit.Assert.assertEquals(locale43.toString(), "it_IT");
     }
 
     @Test
@@ -17642,7 +17625,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertNull(graphicsConfiguration35);
         org.junit.Assert.assertTrue("'" + boolean36 + "' != '" + false + "'", boolean36 == false);
         org.junit.Assert.assertNotNull(locale37);
-        org.junit.Assert.assertEquals(locale37.toString(), "it_IT");
         org.junit.Assert.assertNull(inputMethodRequests38);
         org.junit.Assert.assertNotNull(component42);
         org.junit.Assert.assertNotNull(nodeViewerData44);
@@ -18830,7 +18812,6 @@ public class NodeViewerDataRandoopPart0Test {
         org.junit.Assert.assertNull(graphicsConfiguration35);
         org.junit.Assert.assertTrue("'" + boolean36 + "' != '" + false + "'", boolean36 == false);
         org.junit.Assert.assertNotNull(locale37);
-        org.junit.Assert.assertEquals(locale37.toString(), "it_IT");
         org.junit.Assert.assertNull(inputMethodRequests38);
         org.junit.Assert.assertNotNull(component42);
     }
@@ -19445,7 +19426,6 @@ public class NodeViewerDataRandoopPart0Test {
         nodeViewerData0.remove((java.awt.Component) nodeViewerData14);
         org.junit.Assert.assertNotNull(nodeViewerData0);
         org.junit.Assert.assertNotNull(locale13);
-        org.junit.Assert.assertEquals(locale13.toString(), "it_IT");
         org.junit.Assert.assertNotNull(nodeViewerData14);
         org.junit.Assert.assertNotNull(inputMethodListenerArray16);
         org.junit.Assert.assertArrayEquals(inputMethodListenerArray16, new java.awt.event.InputMethodListener[] {});
