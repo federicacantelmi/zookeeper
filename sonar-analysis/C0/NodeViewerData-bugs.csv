@@ -1,0 +1,2 @@
+"line","severity","rule","message","effort"
+113,"MAJOR","java:S2142","Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here.","15min"

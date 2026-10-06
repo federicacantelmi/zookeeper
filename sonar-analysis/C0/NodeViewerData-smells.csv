@@ -1,0 +1,8 @@
+"line","severity","rule","message","effort"
+41,"MINOR","java:S2160","Override the ""equals"" method in this class.","30min"
+42,"CRITICAL","java:S1948","Make non-static ""zooInspectorManager"" transient or serializable.","30min"
+54,"CRITICAL","java:S3252","Use static access with ""javax.swing.ScrollPaneConstants"" for ""HORIZONTAL_SCROLLBAR_NEVER"".","5min"
+58,"MAJOR","java:S9357","Make this anonymous inner class a lambda","5min"
+58,"MAJOR","java:S1604","Make this anonymous inner class a lambda","5min"
+62,"MAJOR","java:S1066","Merge this if statement with the enclosing one.","5min"
+98,"MINOR","java:S1155","Use isEmpty() to check whether the collection is empty or not.","2min"
