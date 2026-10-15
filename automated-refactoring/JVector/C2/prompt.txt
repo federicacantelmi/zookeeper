@@ -1,0 +1,19 @@
+You are an expert Java developer.
+I want to improve the maintainability of the attached C0 class: JVector-C0.java.
+Create C2 without changing the functionality of C0 and by removing the code smells reported in the attached file: JVector-smells.csv.
+Code smells must be removed or reduced only when doing so does not change the observable behavior, does not break compilation, does not alter the existing API or visibility of classes, constructors, fields and methods, and does not remove any supported behavior. If removing a smell would change the generated output, the public or package-level contract, compilation compatibility or any other observable behavior, then the smell must be preserved and the original behavior must take precedence.
+Make sure C2 passes the tests reported in the attached file: JVectorBlackBoxTest.java, except for the test methods annotated with @Category(AssertWithBug.class).
+Make sure that C2 satisfies the following constraints:
+1. Preserve the original package name.
+2. Preserve the Apache license header.
+3. Preserve the original class name 'JVector'.
+4. Preserve the API and visibility of C0, including the class, constructors, fields, method signatures, return types and visibility modifiers.
+5. Preserve the inheritance relationship with 'JCompType'.
+6. Do not remove existing functionality.
+7. Do not add unrelated functionality.
+8. Do not add test code.
+9. The output must be a complete Java source file that can replace the original 'JVector.java'.
+10. The refactored code must compile in the Apache ZooKeeper project.
+The generated variant will be referred to as C2 in the experiment, but the Java class name must remain 'JVector'.
+Do not include in C2 changes different from what I asked. In fact, consider that C2 must replace C0 and work with the other components of the system exactly as C0 currently does.
+This is an important request; take all the time you need to provide a complete and accurate answer.
