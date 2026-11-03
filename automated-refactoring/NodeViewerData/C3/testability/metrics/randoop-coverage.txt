@@ -1,0 +1,4 @@
+Instructions: 84/106 = 79.25%
+Branches: 2/6 = 33.33%
+Lines: 24/33 = 72.73%
+Methods: 5/6 = 83.33%

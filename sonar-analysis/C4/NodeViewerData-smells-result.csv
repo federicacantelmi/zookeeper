@@ -1,0 +1,3 @@
+"line","severity","rule","message","effort"
+27,"MINOR","java:S1128","Remove this duplicated import.","1min"
+41,"MINOR","java:S2160","Override the ""equals"" method in this class.","30min"

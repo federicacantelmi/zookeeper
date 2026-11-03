@@ -1,0 +1,10 @@
+variant=C1
+randoop-version=4.3.4
+randomseed=1234
+time-limit=60
+output-limit=1000
+flaky-test-behavior=OUTPUT
+no-error-revealing-tests=false
+regression-tests=504
+error-revealing-tests=1
+flaky-asserts=12

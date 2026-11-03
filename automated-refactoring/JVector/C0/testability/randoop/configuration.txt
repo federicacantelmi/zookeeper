@@ -1,0 +1,9 @@
+variant=C0
+origin=original Randoop suite generated before refactoring
+randoop-version=4.3.4
+randomseed=1234
+output-limit=1000
+generated-tests=505
+flaky-tests-detected=4
+final-suite-tests=505
+final-suite-flaky-markers=0

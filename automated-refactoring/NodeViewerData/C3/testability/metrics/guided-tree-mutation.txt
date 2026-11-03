@@ -1,0 +1,7 @@
+Mutanti totali: 15
+Mutanti uccisi: 8
+Mutanti timed out: 4
+Mutanti rilevati complessivamente: 12
+Mutanti sopravvissuti: 2
+Mutanti senza copertura: 1
+Mutation score PIT: 80.00%

@@ -1,0 +1,3 @@
+"line","severity","rule","message","effort"
+39,"MINOR","java:S2160","Override the ""equals"" method in this class.","30min"
+40,"CRITICAL","java:S1948","Make non-static ""zooInspectorManager"" transient or serializable.","30min"

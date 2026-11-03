@@ -1,0 +1,5 @@
+Mutanti totali: 15
+Mutanti uccisi: 7
+Mutanti sopravvissuti: 6
+Mutanti senza copertura: 2
+Mutation score: 46.67%

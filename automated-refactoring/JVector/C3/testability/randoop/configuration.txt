@@ -1,0 +1,10 @@
+variant=C3
+randoop-version=4.3.4
+junit-package-name=org.apache.jute.compiler
+randomseed=1234
+time-limit=60
+output-limit=1000
+flaky-test-behavior=OUTPUT
+no-error-revealing-tests=true
+generated-tests=519
+flaky-tests=21

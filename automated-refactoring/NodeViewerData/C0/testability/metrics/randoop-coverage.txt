@@ -1,0 +1,4 @@
+Instructions: 76.16%
+Branches: 33.33%
+Lines: 81.58%
+Methods: 88.89%

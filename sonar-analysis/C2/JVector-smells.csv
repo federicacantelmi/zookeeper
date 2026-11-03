@@ -1,0 +1,2 @@
+"line","severity","rule","message","effort"
+110,"CRITICAL","java:S1192","Use already-defined constant 'ELEMENT_INDENT' instead of duplicating its value here.","6min"

@@ -1,0 +1,4 @@
+Instructions: 429/429 = 100.00%
+Branches: 4/4 = 100.00%
+Lines: 81/81 = 100.00%
+Methods: 18/18 = 100.00%

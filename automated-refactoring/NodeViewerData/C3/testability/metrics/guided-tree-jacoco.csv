@@ -1,0 +1,68 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.manager,Pair,119,0,22,0,36,0,20,0,9,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.manager,ZooInspectorManagerImpl,1092,0,136,0,306,0,92,0,24,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.manager,NodesCache.new CacheLoader() {...},11,0,0,0,2,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.manager,ZooInspectorManagerImpl.new Watcher() {...},15,0,2,0,4,0,3,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.manager,ZooInspectorManagerImpl.NodeWatcher,77,0,8,0,24,0,7,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.manager,NodesCache,59,0,2,0,20,0,4,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,com.nitido.utils.toaster,Toaster.Animation,234,0,16,0,53,0,11,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,com.nitido.utils.toaster,Toaster,160,0,2,0,57,0,24,0,23,0
+Apache ZooKeeper - Contrib - ZooInspector,com.nitido.utils.toaster,Toaster.SingleToaster,128,0,0,0,27,0,3,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector,ZooInspector,55,0,0,0,18,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector,ZooInspector.new WindowAdapter() {...},14,0,0,0,4,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.retry,ZooKeeperRetry,416,0,88,0,127,0,60,0,16,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.encryption,BasicDataEncryptionManager,20,0,4,0,7,0,5,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.logger,LoggerFactory,3,6,0,0,1,2,1,2,1,2
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL,53,0,2,0,16,0,5,0,4,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData,53,0,2,0,16,0,5,0,4,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerData.new SwingWorker() {...},0,35,0,0,0,12,0,3,0,3
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui.nodeviewer,ZooInspectorNodeViewer,53,43,11,7,16,13,12,4,4,3
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerMetaData.new SwingWorker() {...},305,0,6,0,79,0,7,0,4,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerACL.new SwingWorker() {...},278,0,4,0,73,0,5,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui.nodeviewer,NodeViewerData,18,88,3,3,7,26,2,7,0,6
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,IconResource,30,87,6,6,8,20,5,7,0,6
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,Toolbar.Button,129,0,0,0,17,0,3,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorAboutDialog.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorAboutDialog,112,0,0,0,27,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.TreeEventHandler,60,0,8,0,15,0,8,0,4,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.Button,145,0,2,0,23,0,5,0,4,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorPanel.new ActionListener() {...},25,0,0,0,7,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog.new ActionListener() {...},21,0,0,0,5,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog.new ActionListener() {...},30,0,0,0,14,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog.new ActionListener() {...},61,0,2,0,23,0,3,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,Toolbar,117,0,4,0,21,0,8,0,6,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new ActionListener() {...},65,0,6,0,31,0,5,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new ActionListener() {...},45,0,4,0,12,0,4,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new ActionListener() {...},43,0,2,0,11,0,3,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new ActionListener() {...},43,0,2,0,11,0,3,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new TransferHandler() {...},98,0,8,0,38,0,9,0,5,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.ZooInspectorTreeModel.new SwingWorker() {...},42,0,0,0,7,0,3,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new DefaultListCellRenderer() {...},24,0,0,0,6,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.ZooInspectorTreeModel.new SwingWorker() {...},128,0,6,0,19,0,6,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.ZooInspectorTreeCellRenderer,50,0,4,0,12,0,4,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.ZooInspectorTreeModel,98,0,0,0,27,0,8,0,8,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.ZooInspectorTreeModel.new SwingWorker() {...},126,0,8,0,22,0,7,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorPanel.new SwingWorker() {...},51,0,2,0,16,0,4,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorPanel.new SwingWorker() {...},33,0,2,0,11,0,4,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.ZooInspectorTreeNode,89,0,12,0,23,0,17,0,11,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorPanel.new ActionListener() {...},33,0,0,0,6,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorPanel.new ActionListener() {...},20,0,0,0,5,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorPanel.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView,309,0,20,0,91,0,22,0,12,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new ActionListener() {...},74,0,4,0,29,0,4,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorPanel.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new ActionListener() {...},97,0,6,0,30,0,5,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorPanel.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new ActionListener() {...},94,0,8,0,36,0,6,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorPanel.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.NodeEventHandler,71,0,4,0,14,0,4,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorPanel,225,0,6,0,58,0,9,0,6,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.ActionEventHandler,56,0,10,0,12,0,7,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersPanel,156,0,8,0,38,0,9,0,5,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.MouseEventHandler,67,0,10,0,13,0,7,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new ActionListener() {...},10,0,0,0,3,0,2,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog.new ActionListener() {...},78,0,4,0,13,0,4,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorConnectionPropertiesDialog,685,0,22,0,173,0,14,0,3,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorNodeViewersDialog,797,0,10,0,186,0,7,0,2,0
+Apache ZooKeeper - Contrib - ZooInspector,org.apache.zookeeper.inspector.gui,ZooInspectorTreeView.KeyEventHandler,28,0,6,0,11,0,6,0,2,0
